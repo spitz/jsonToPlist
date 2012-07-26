@@ -10,6 +10,7 @@
 		CB3C65BC14BDE8EE00665478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3C65BB14BDE8EE00665478 /* Foundation.framework */; };
 		CB3C65BF14BDE8EE00665478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C65BE14BDE8EE00665478 /* main.m */; };
 		CB3C65C314BDE8EF00665478 /* plistToJSON.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB3C65C214BDE8EF00665478 /* plistToJSON.1 */; };
+		CBD4709715C02FD700F98D2A /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4709615C02FD700F98D2A /* Converter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		CB3C65C114BDE8EF00665478 /* plistToJSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plistToJSON-Prefix.pch"; sourceTree = "<group>"; };
 		CB3C65C214BDE8EF00665478 /* plistToJSON.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = plistToJSON.1; sourceTree = "<group>"; };
 		CBD3516614BF2E8000F419D6 /* sampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sampleData.plist; sourceTree = "<group>"; };
+		CBD4709515C02FD700F98D2A /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		CBD4709615C02FD700F98D2A /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				CB3C65BE14BDE8EE00665478 /* main.m */,
 				CB3C65C214BDE8EF00665478 /* plistToJSON.1 */,
 				CB3C65C014BDE8EF00665478 /* Supporting Files */,
+				CBD4709515C02FD700F98D2A /* Converter.h */,
+				CBD4709615C02FD700F98D2A /* Converter.m */,
 			);
 			path = plistToJSON;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3C65BF14BDE8EE00665478 /* main.m in Sources */,
+				CBD4709715C02FD700F98D2A /* Converter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
